@@ -1,12 +1,52 @@
-# React + Vite
+# 🎨 Dcluttr UI Design Task (Task 3)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the implementation of the **UI Design Task** as per the [Figma Design](https://www.figma.com/design/6Y9bfEXlR5SDo2NfOmmUJP/Dcluttr---Design-task-file?node-id=21-9991&t=u53hti8M9LhV071F-1) provided by **Dcluttr**.
 
-Currently, two official plugins are available:
+> 📌 The goal of this task was to replicate the desktop UI with **pixel-perfect accuracy** using **React.js** or **Next.js**, hosted on **Vercel**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✅ Task Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ Build the UI in **React.js or Next.js**
+- 🎯 Match the Figma design **pixel by pixel**
+- 💻 Focus only on **desktop view** (not responsive)
+- 🖌️ Strict attention to detail for:
+  - Fonts, sizes, padding, margin
+  - Colors, spacing, alignment
+  - Buttons, icons, and interactive elements
+- 🚀 Host the UI on **Vercel** or similar free service
+- 🌍 Share code in a **public GitHub repo**
+- 🎥 (Optional) Record a quick demo video
+
+---
+
+## 🔗 Live Demo
+
+| Resource            | Link                                                                 |
+|---------------------|----------------------------------------------------------------------|
+| 🌐 Live Website     | [View on Vercel](https://ui-design-swart.vercel.app/)                |
+| 📦 GitHub Repo      | [CodewithDeep23/UI-Design](https://github.com/CodewithDeep23/UI-Design) |
+| 🖼️ Figma Design     | [Figma Link](https://www.figma.com/design/6Y9bfEXlR5SDo2NfOmmUJP/Dcluttr---Design-task-file?node-id=21-9991&t=u53hti8M9LhV071F-1) |
+
+---
+## 📦 Installation and Setup
+
+### 🔧 Frontend Setup (React)
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/CodewithDeep23/UI-Design.git
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    cd UI-Design
+    npm install
+    ```
+
+5. **Start the server:**
+    ```bash
+    npm run dev
+    ```
