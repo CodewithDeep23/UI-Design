@@ -19,29 +19,23 @@ export default function Navbar() {
         <div className="flex flex-row items-center justify-end w-full h-auto gap-2">
           <Button
             textColor="text-black"
-            className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB]"
-            bgColor="bg-[#FFFFFF]"
+            className="bg-[#FFFFFF] cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#D9D9D9]"
           >
             <img src={ChartLine} alt="" />
             <ToggleSwitch />
           </Button>
-          <Button
-            disableScale
-            textColor="text-black"
-            className="cursor-pointer flex flex-row w-full h-[40px] justify-center items-center py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB]"
-            bgColor="bg-[#FFFFFF]"
-            // bgColor="bg-blue-400"
-          >
-            <Dropdown
+          <div className="w-full flex items-center">
+          <Dropdown
               label="Aug 01, 024 - Aug 03, 2024"
               iconLeft={Calendar}
               iconRight={Vector5}
               options={["Date1", "Date2", "Date3"]}
               onSelect={handleSelect}
-              className="w-auto px-0"
+              // className="w-auto px-0"
               l_gap="gap-3"
+              className="bg-[#FFFFFF] cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#D9D9D9]"
             />
-          </Button>
+          </div>
         </div>
       </div>
       {/* Nav 2 */}
@@ -50,9 +44,7 @@ export default function Navbar() {
           <div className="flex flex-row items-center justify-start w-auto h-auto gap-2 p-1 rounded-[10px] ring-[0.5px] ring-inset ring-[#EBEBEB] bg-[#FFFFFF]">
             <Button
               textColor="text-black"
-              className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB]"
-              // bgColor="bg-[#FFFFFF]"
-              bgColor="bg-[#DFEAE8]"
+              className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB] bg-[#DFEAE8]"
               disableScale
             >
               <img src={blinkit} alt="" className="size-6" />
@@ -62,9 +54,7 @@ export default function Navbar() {
             </Button>
             <Button
               textColor="text-black"
-              className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB] opacity-30"
-              // bgColor="bg-[#FFFFFF]"
-              bgColor="bg-[#FFFFFF]"
+              className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB] opacity-30 bg-[#FFFFFF]"
               disableScale
             >
               <img src={Zepto} alt="" className="size-6" />
@@ -74,9 +64,7 @@ export default function Navbar() {
             </Button>
             <Button
               textColor="text-black"
-              className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB] opacity-30"
-              // bgColor="bg-[#FFFFFF]"
-              bgColor="bg-[#FFFFFF]"
+              className="cursor-pointer flex flex-row w-auto h-[40px] gap-3 justify-center items-center px-3 py-1.5 rounded-[10px] ring-[1px] ring-inset ring-[#EBEBEB] opacity-30 bg-[#FFFFFF]"
               disableScale
             >
               <img src={Instamart} alt="" className="size-6" />

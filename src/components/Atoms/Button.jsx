@@ -1,7 +1,6 @@
 export default function Button({
   children,
   type = "button",
-  bgColor = "bg-[#FFFFFF]",
   textColor = "text-white",
   className = "",
   disableScale = false,
@@ -13,7 +12,7 @@ export default function Button({
         disableScale
           ? ""
           : "transition-transform duration-200 hover:scale-105 hover:border-white"
-      } ${bgColor} ${textColor} ${className}`}
+      } ${textColor} ${className}`}
       type={type}
       {...props}
     >

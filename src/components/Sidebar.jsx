@@ -143,14 +143,15 @@ export default function Sidebar() {
                         </div>
                       </div>
                       <div className="w-full flex items-center">
-                      <Dropdown
-                        label="Channels"
-                        iconLeft={Vector4}
-                        iconRight={Vector5}
-                        options={["Meta Ads", "Google Ads", "Quick Commerce"]}
-                        onSelect={handleSelect}
-                        push_below="w-full mt-2 bg-white rounded shadow"
-                      />
+                        <Dropdown
+                          label="Channels"
+                          iconLeft={Vector4}
+                          iconRight={Vector5}
+                          options={["Meta Ads", "Google Ads", "Quick Commerce"]}
+                          onSelect={handleSelect}
+                          push_below="w-full mt-2 bg-white rounded shadow"
+                          closeOnMouseLeave="true"
+                        />
                       </div>
                       <div className="flex flex-row items-center w-full max-h-[36px] pl-3 py-2 hover:cursor-pointer">
                         <div className="w-full h-[20px] flex items-center gap-5">

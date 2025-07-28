@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Rightbar() {
     return (
-        <div className="flex flex-col w-[1112.38px] h-auto items-start justify-center px-2 py-3 bg-red-400">
+        <div className="relative flex flex-col flex-1 h-auto items-start justify-center px-2 py-3 overflow-x-auto">
             <Navbar />
             <Content/>
         </div>

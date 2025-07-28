@@ -26,8 +26,12 @@ import line4 from "../assets/line4.svg";
 import line5 from "../assets/line5.svg";
 import dot from "../assets/dot.svg";
 import ArrowDown from "../assets/ArrowDown.svg";
+import chart from "../assets/chart.png";
+import Vector5W from "../assets/Vector5W.svg";
+import Checkmark from "../assets/Checkmark.svg";
 
 export {
     image_1, Vector, Vector2, image_2, image_3, image_4, user, plus, Vector3, Vector4, Vector5,
-    Vector6, Vector7, Vector8, ChartLine, Calendar, blinkit, Zepto, Instamart, help, ArrowUp, line1, line2, line3, line4, line5, dot, ArrowDown
+    Vector6, Vector7, Vector8, ChartLine, Calendar, blinkit, Zepto, Instamart, help, ArrowUp, line1, line2, line3, line4, line5, dot, ArrowDown,
+    chart, Vector5W, Checkmark
 };
